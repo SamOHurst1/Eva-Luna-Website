@@ -80,29 +80,30 @@ document.addEventListener('DOMContentLoaded' , function() {
         document.getElementById("contactNumber").value = "+34"
     }
   }
+  
 
 //   Review section 
-// var swiper = new Swiper(".mySwiper", {
-//     spaceBetween: 20,
-//     loop:true,
-//     autoplay: {
-//         delay: 2500,
-//         disableOnInteraction: false,
-//     },
-//     breakpoints: {
-//         640:{
-//             slidesPerView: 1,
-//         },
-//         768:{
-//             slidesPerView: 1,
-//         },
-//         640:{
-//             slidesPerView: 2,
-//         },
-//         1024:{
-//             slidesPerView: 3,
-//         },
-//     },
-// });
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 20,
+    loop:true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        640:{
+            slidesPerView: 1,
+        },
+        768:{
+            slidesPerView: 1,
+        },
+        640:{
+            slidesPerView: 2,
+        },
+        1024:{
+            slidesPerView: 3,
+        },
+    },
+});
 
-var swiper = new Swiper(".mySwiper", {});
+// var swiper = new Swiper(".mySwiper", {});
