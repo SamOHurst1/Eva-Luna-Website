@@ -127,7 +127,7 @@ h2 {
 .mobile_nav {
     position: fixed;
     top: 0;
-    left: 100%;
+    right: 0;
     width: 100%;
     min-height: 100vh;
     display: none;
@@ -166,13 +166,13 @@ ul {
       display: flex;
       flex-direction: column;
       flex-grow: 1;
-      width: 40vh;
+      width: 100%;
       left: 83%;
 }
 
 
 
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
     .mobile_nav.is-active {
       display: flex;
       flex-direction: column;
@@ -188,7 +188,7 @@ ul {
       flex-grow: 1;
       left: 60%;
     }
-  }
+  } */
 
 
 
@@ -216,6 +216,20 @@ ul {
 
 .mobile_nav a:hover {
     color: black;
+}
+
+/* dropdown section under trips in nav bar section */
+ul li ul {
+    display: none;
+    transition-duration: 2s;
+    transition: 1s;
+}
+
+ul li:hover ul {
+    display: block;
+    margin-left: 20px;
+    padding: 5px ;
+    list-style: none;
 }
 
 
@@ -438,14 +452,14 @@ img {
 }
 
 .team-section .container .team-card .card .text h4 {
-    font-size: 17px;
+    font-size: 22px;
     margin-top: 10px;
     letter-spacing: 1.5px;
     color: rgb(43, 40, 40);
 }
 
 .team-section .container .team-card .card .text p {
-    font-size: 15px;
+    font-size: 20px;
     margin: 16px 0px;
     line-height: 1.5;
     color: rgb(68, 63, 63);
@@ -689,22 +703,6 @@ body , html {
 .explore-content .button {
     margin-top: 20px;
 }
-
-
-/* dropdown section under trips in nav bar section */
-ul li ul {
-    display: none;
-    transition-duration: 2s;
-    transition: 1s;
-}
-
-ul li:hover ul {
-    display: block;
-    margin-left: 20px;
-    padding: 5px ;
-    list-style: none;
-}
-
 
 
 /* form */

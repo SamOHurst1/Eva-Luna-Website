@@ -8,6 +8,19 @@ window.onload = function () {
     });
 }
 
+// function for dropdown of trips section
+// function trip_drp_down() {
+//     const trip = document.querySelector('.trip_menu');
+//     const trip_drp_down = document.querySelector('.drp_down');
+
+//     trip.addEventListener('click', function () {
+//         trip.classList.toggle('is-active');
+//         trip_drp_down.classList.toggle('is-active');
+//     });
+// }
+
+
+
 // function scrolldiv() {
 //     var elem = document.getElementById("contact");
 //     elem.scrollIntoView();
@@ -83,27 +96,25 @@ document.addEventListener('DOMContentLoaded' , function() {
 
 
 //   Review section 
-// var swiper = new Swiper(".mySwiper", {
-//     spaceBetween: 20,
-//     loop:true,
-//     autoplay: {
-//         delay: 2500,
-//         disableOnInteraction: false,
-//     },
-//     breakpoints: {
-//         640:{
-//             slidesPerView: 1,
-//         },
-//         768:{
-//             slidesPerView: 1,
-//         },
-//         640:{
-//             slidesPerView: 2,
-//         },
-//         1024:{
-//             slidesPerView: 3,
-//         },
-//     },
-// });
-
-// var swiper = new Swiper(".mySwiper", {});
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 20,
+    loop:true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        640:{
+            slidesPerView: 1,
+        },
+        768:{
+            slidesPerView: 1,
+        },
+        640:{
+            slidesPerView: 2,
+        },
+        1024:{
+            slidesPerView: 3,
+        },
+    },
+});
