@@ -242,7 +242,7 @@ main .banner {
         position: relative;
         z-index: 2;
 
-        background-image: url(../img/island.jpg);
+        background-image: url(img/island.jpg);
         background-position: top right;
         background-size: cover;
         /* padding: 100px 10px;
@@ -289,7 +289,7 @@ main .banner {
 }
 
 
-/* cards section containing trisp */
+/* cards section containing trips */
 
 img {
     max-width: 100%;

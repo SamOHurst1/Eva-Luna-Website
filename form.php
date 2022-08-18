@@ -1,69 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Trips page</title>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700;900&family=Poppins:wght@200&family=Space+Mono&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700;900&family=Nanum+Myeongjo:wght@400;700;800&family=Poppins:wght@200&family=Space+Mono&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet"/>
-</head>
+<!-- header -->
+<?php include "include/head.php"; ?>
 
 <body>
-    <header>
-
-        <div class="container">
-          <h2>
-            <span>
-              <a class="top" href="index.html">Eva Luna</a>
-            </span>
-          </h2>
-  
-          <!-- <nav>
-            <a href="#">Home</a>
-            <a href="#">Trips</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-          </nav>   -->
-          <button class="hamburger">
-              <div class="bar">
-  
-              </div>
-          </button> 
-        </div>
-  
-      </header>
-  
-      <nav class="mobile_nav">
-        <a href="index.html">Home</a>
-
-        <ul>
-          <li>
-            <a href="#!">Trips</a>
-
-            <ul class="drp_down">
-              <li><a href="trips.html">> Lisbon</a></li>
-              <li><a href="cascaistrips.html">> Cascais</a></li>
-              <li><a href="sesimbratrips.html">> Sesimbra</a></li>
-            </ul>
-
-          </li>  
-        </ul>
-
-        <a href="form.html">Booking</a>
-        <a href="index.html#about">About Us</a>
-           <!-- javascript: scrollToContact() -->
-        <a href="contact.html">Contact</a>
-  </nav>
-
+    <!-- navigation -->
+ <?php include "include/nav.php"; ?>
+    <!-- nav end  -->
+    
 <main>
   
-    <form class="form" action="" method="post">
+    <form class="form" action="process_form.php" method="post">
         <div class="form__title">Book Your Dream Trip!</div>
         <p class="form__desc">We are focused on tailor-made sailing trips for groups of up to 8 people in size. 
             Let us know of anything you would like to include in your trip and we can make it happen! weather it be a swimming, snorkelling or fishing from the yacht to 
@@ -72,7 +17,7 @@
 
         <div class="form__item">
             <label for="givenname" class="form__label">First Name</label>
-            <input type="text" class="form__input" name="givennames" id="givennames" placeholder="Enter your first name"> 
+            <input type="text" class="form__input" name="givenname" id="givenname" placeholder="Enter your first name"> 
             <span class="form__error">A sample error message</span>
         </div>
         <div class="form__item">

@@ -42,19 +42,19 @@ function scrollToContact() {
 //link to lisbon trip page from pic
 document.getElementById("lisb").onclick = function () 
    {
-    location.href="../trips.html"
+    location.href="trips.php"
    }
 
 //link to cascais trip page from pic
     document.getElementById("cascais").onclick = function () 
    {
-    location.href="../cascaistrips.html"
+    location.href="cascaistrips.php"
    }
 
    //link to sesimbra trip page from pic
    document.getElementById("sesimbra").onclick = function () 
    {
-    location.href="../sesimbratrips.html"
+    location.href="sesimbratrips.php"
    }
 
 

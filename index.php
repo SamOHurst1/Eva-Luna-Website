@@ -1,73 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Eva Luna new web</title>
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700;900&family=Poppins:wght@200&family=Space+Mono&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700;900&family=Nanum+Myeongjo:wght@400;700;800&family=Poppins:wght@200&family=Space+Mono&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet"/>
-
-<script src="https://kit.fontawesome.com/b1da1cb5b8.js" crossorigin="anonymous"></script>
-<!-- for slider -->
-<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
-</head>
+    <!-- header -->
+<?php include "include/head.php"; ?>
 
 <body>
-    <header>
-
-      <div class="container">
-        <h2>
-          <span>
-            <a class="top" href="index.html">Eva Luna</a>
-          </span>
-        </h2>
-
-        <!-- <nav>
-          <a href="#">Home</a>
-          <a href="#">Trips</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </nav>   -->
-        <button class="hamburger">
-            <div class="bar">
-
-            </div>
-        </button> 
-      </div>
-
-    </header>
-
-    <nav class="mobile_nav">
-          <a href="index.html">Home</a>
-
-          <ul>
-            <li>
-              <a class="trip_menu"  href="#!">Trips</a>
-
-              <ul class="drp_down">
-                <li><a href="trips.html">> Lisbon</a></li>
-                <li><a href="cascaistrips.html">> Cascais</a></li>
-                <li><a href="sesimbratrips.html">> Sesimbra</a></li>
-              </ul>
-
-            </li>  
-          </ul>
-
-          <a href="form.html">Booking</a>
-          <a href="#about">About Us</a>
-             <!-- javascript: scrollToContact() -->
-          <a href="contact.html">Contact</a>
-    </nav>
+    <!-- navigation -->
+ <?php include "include/nav.php"; ?>
+    <!-- nav end  -->
 
     <main>
       <section class="banner">
@@ -78,7 +15,7 @@
             <span>Create memories that last forever</span>
           </h1>
 
-          <a href="form.html" class="button">Book Now</a>
+          <a href="form.php" class="button">Book Now</a>
 
         </div>
       </section>
@@ -91,7 +28,7 @@
 
               <div class="trip" id="lisb">
                 <figure class="img-box">
-                  <img src="../img/boatsunset.jpg" alt="Lisbon trip" class="img" />
+                  <img src="img/boatsunset.jpg" alt="Lisbon trip" class="img" />
                 </figure>
                   <div class="content">
                     <h3>Lisbon</h3>
@@ -103,7 +40,7 @@
 
               <div class="trip" id="cascais">
                 <figure class="img-box">
-                  <img src="../img/glassy.jpg" alt="Cascais trip" class="img" />
+                  <img src="img/glassy.jpg" alt="Cascais trip" class="img" />
                 </figure>
                   <div class="content">
                     <h3>Cascais</h3>
@@ -115,7 +52,7 @@
 
               <div class="trip" id="sesimbra">
                 <figure class="img-box">
-                  <img src="../img/foodenjoy.jpg" alt="Sesimbra trip" class="img" />
+                  <img src="img/foodenjoy.jpg" alt="Sesimbra trip" class="img" />
                 </figure>
                   <div class="content">
                     <h3>Sesimbra</h3>
@@ -144,7 +81,7 @@
             <div class="team-card">
               <div class="card">
                 <div class="image-section">
-                  <img class="photo" src="../img/paulo.jpg">
+                  <img class="photo" src="img/paulo.jpg">
                 </div>
                 <div class="text">
                   <h3>Paulo</h3>
@@ -158,7 +95,7 @@
 
               <div class="card">
                 <div class="image-section">
-                  <img class="photo" src="../img/rui.jpg">
+                  <img class="photo" src="img/rui.jpg">
                 </div>
                 <div class="text">
                   <h3>Rui</h3>
@@ -172,7 +109,7 @@
 
               <div class="card">
                 <div class="image-section">
-                  <img src="../img/ines1.jpg">
+                  <img src="img/ines1.jpg">
                 </div>
                 <div class="text">
                   <h3>Ines</h3>
@@ -186,7 +123,7 @@
 
               <div class="card">
                 <div class="image-section">
-                  <img src="../img/sam.jpg">
+                  <img src="img/sam.jpg">
                 </div>
                 <div class="text">
                   <h3>Sam</h3>
@@ -218,7 +155,7 @@
 
                   <div class="swiper-slide">
                       <div class="box">
-                          <img src="../img/hamad.jpg" alt="">
+                          <img src="img/hamad.jpg" alt="">
                           <h3>Robert</h3>
                           <p>We had the best possible trip imaginable. everything was well orgnaised and the sailing boat trip is amazing
                             I recommend to anyone wanting to experince sailing in all it's beaty
@@ -235,7 +172,7 @@
 
                 <div class="swiper-slide">
                     <div class="box">
-                        <img src="../img/Ragavee.jpg" alt="">
+                        <img src="img/Ragavee.jpg" alt="">
                         <h3>Ragavee</h3>
                         <p>This was one of the amazing experiences we had Lisbon! We booked a private ride for our family and Paulo and his team were very accommodating!
                         </p>
@@ -251,7 +188,7 @@
 
                 <div class="swiper-slide">
                     <div class="box">
-                        <img src="../img/glassy.jpg" alt="">
+                        <img src="img/glassy.jpg" alt="">
                         <h3>Angela</h3>
                         <p>Beautiful boat and excellent company. Everything was perfect and we had a fantastic evening, so glad we booked this rather than the shared public trips.
                            Could not have been better - it was the highlight of our trip to Lisbon.
@@ -268,7 +205,7 @@
 
                 <div class="swiper-slide">
                     <div class="box">
-                        <img src="../img/person.jpg" alt="">
+                        <img src="img/person.jpg" alt="">
                         <h3>Hamad</h3>
                         <p>Our experience with Paulo and Sam was beyond expectations! They are clearly very experienced and excellent hosts. We learned so much about local culture and history, 
                           witnessed the most incredible sunset. We bad a private romantic sunset tour and it was the experience of a lifetime.
